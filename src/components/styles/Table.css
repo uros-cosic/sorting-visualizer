@@ -1,0 +1,54 @@
+.table-buttons {
+  display: flex;
+  position: relative;
+  margin: 1rem 0;
+}
+
+.table-buttons button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  border: none;
+  background-color: transparent;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.table-buttons button:hover {
+  background-color: var(--gray);
+}
+
+.visualize-btn,
+.randomize-btn {
+  padding-left: 0.5rem;
+}
+
+.line {
+  border: 1px solid var(--dark);
+  height: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.error-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--danger);
+  font-size: 1.25rem;
+  font-weight: var(--weight-bold);
+}
+
+.table {
+  display: flex;
+  transform: rotateY(180deg);
+  transform: rotateX(180deg);
+}
+
+.slidecontainer {
+  position: absolute;
+  left: 100%;
+  transform: translateX(-100%);
+}

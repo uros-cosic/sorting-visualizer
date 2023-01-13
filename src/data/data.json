@@ -1,0 +1,16 @@
+{
+  "algorithms": [
+    {
+      "name": "Bubble Sort",
+      "description": "is a simple sorting algorithm that repeatedly steps through the input list element by element, comparing the current element with the one after it, swapping their values if needed."
+    },
+    {
+      "name": "Quick Sort",
+      "description": "is a divide-and-conquer algorithm. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot."
+    },
+    {
+      "name": "Merge Sort",
+      "description": "is a divide-and-conquer, an efficient, general-purpose, and comparison-based sorting algorithm"
+    }
+  ]
+}

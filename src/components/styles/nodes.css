@@ -1,0 +1,27 @@
+.unordered,
+.ordered,
+.swap,
+.comparing {
+  height: 25px;
+  width: 25px;
+  border: 1px solid var(--dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unordered {
+  background-color: var(--light);
+}
+
+.ordered {
+  background-color: var(--primary);
+}
+
+.swap {
+  background-color: var(--danger);
+}
+
+.comparing {
+  background-color: var(--warning);
+}
